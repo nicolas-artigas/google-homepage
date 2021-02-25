@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.foto-perfil {
+    border-radius: 50%;
+    padding: 15px;
+}
+.imagen-menu {
+    width: 17px;
+    height: 17px;
+    padding: 15px;
+}
+.imagen-google-cab {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.google-cabecera {
+    margin:auto ;
+}
+main {
+    text-align: center;
+}
+#buscar-google {
+    border-radius: 20px;
+    width: 541px;
+    height: 45px;
+    border: 1px solid #cfcccc;
+}
+#buscar-google:hover {
+    animation-name: buscador-sombra;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes buscador-sombra {
+    100% {
+        box-shadow: 2px 2px 2px rgba(15,20,30,0.3);
+    }
+}
+.botones {
+    margin: 30px;
+}
+.boton {
+    margin: 0px 5px;
+    color:black;
+    border: 1px  #b8b4b4;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:#f8f8f8;
+    text-decoration: none;
+}
+.boton:hover {
+    animation-name: cambio-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes cambio-color {
+    100% {
+        border: 1px solid #b8b4b4;
+        box-shadow: 0 1px 1px rgba(15,20,30,0.19)
+                }
+}
+p {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}   
+.ofrecido-por {
+    display: inline-block;
+    padding: 15px;
+}
+.idiomas {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+footer {
+    background-color: #f3f0f0;
+    position: fixed;
+    bottom: 0px;
+    left: 0px; 
+    width: 100%;
+}
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3d3d3d;
+}
+.pais-actual {
+    padding: 18px;
+    border-bottom: 1px solid #b8b4b4;
+}
+.informacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+footer ul {
+    display: flex;
+}

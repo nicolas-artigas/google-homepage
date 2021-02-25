@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     <title>Nico Google Search The Odin Project</title>
 </head>
 <body>
@@ -12,36 +13,40 @@
             <ul>
                 <li class="gmail">Gmail</li>
                 <li class="Imagenes">Imágenes</li> 
-                <li class="boton-menu"></li>
             </ul>
-            <img src="" alt="" class="foto-perfil">
+            <img src="imagenes/menu-img.png" alt="menu de aplicaciones" class="imagen-menu">
+            <img src="imagenes/perfil-img.jpg" alt="Imagen perfil usuario" class="foto-perfil">
         </nav>
     </header>
     <main>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" class="google-cabecera">
+        <div class="imagen-google-cab">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" class="google-cabecera">
+        </div>
         <form action="#" class="barra-busqueda" target="_self">
             <input type="search" name="boton-buscar" id="buscar-google">
         </form>
-        <a href="www.google.com" class="buscar-con-google">Buscar con Google</a>
-        <a href="www.google.com" class="suerte">Voy a tener suerte</a>
+        <div class="botones">
+            <a href="www.google.com" class="boton">Buscar con Google</a>
+            <a href="www.google.com" class="boton">Voy a tener suerte</a>
+        </div>
         <div class="ofrecido-por">
             <p class="texto">Ofrecido por Google en:</p>
-            <a href="www.google.com/en" class="ingles">English</a>
-            <a href="www.google.nl" class="netherlands">Nederlands</a>
-            <a href="www.google.com" class="frysk">Frysk</a>
+            <a href="www.google.com/en" class="idiomas">English</a>
+            <a href="www.google.nl" class="idiomas">Nederlands</a>
+            <a href="www.google.com" class="idiomas">Frysk</a>
         </div>
     </main>
     <footer>
-        <div class="pais-actual">Países Bajos</div>
+        <div class="pais-actual">
+            <p>Países Bajos</p>
+        </div>
         <div class="informacion">
-            <ul class="nav-footer">
+            <ul class="finale">
                 <li>Sobre Google</li>
                 <li>Publicidad</li>
                 <li>Empresa</li>
                 <li>Como funciona la Búsqueda</li>
             </ul>
-        </div>
-        <div>
             <ul class="finale">
                 <li>Privacidad</li>
                 <li>Términos</li>
