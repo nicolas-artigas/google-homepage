@@ -5,30 +5,40 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/ac41d5886e.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Nico Google Search The Odin Project</title>
   </head>
   <body>
+    <!-- Navigation-->
     <header>
       <nav>
         <ul>
-          <li class="gmail">Gmail</li>
-          <li class="Imagenes">Imágenes</li>
+          <li class="gmail"><a href="#">Gmail</a></li>
+          <li class="Imagenes"><a href="#">Imágenes</a></li>
         </ul>
-        <img
-          src="imagenes/menu-img.png"
-          alt="menu de aplicaciones"
-          class="imagen-menu"
-        />
-        <img
-          src="imagenes/perfil-img.jpg"
-          alt="Imagen perfil usuario"
-          class="foto-perfil"
-        />
+        <a href="#" alt="menu aplicaciones"
+          ><img
+            src="imagenes/menu-img.png"
+            alt="menu de aplicaciones"
+            class="imagen-menu"
+          />
+        </a>
+        <a href="https://github.com/nicolasar92"
+          ><img
+            src="imagenes/perfil-img.jpg"
+            alt="Imagen perfil usuario"
+            class="foto-perfil"
+          />
+        </a>
       </nav>
     </header>
+    <!-- Main content-->
     <main>
       <div class="imagen-google-cab">
         <img
@@ -37,9 +47,13 @@
           class="google-cabecera"
         />
       </div>
-      <form action="#" class="barra-busqueda" target="_self">
-        <input type="search" name="boton-buscar" id="buscar-google" />
-      </form>
+      <div class="buscador">
+        <i class="fas fa-search"></i>
+        <form action="#" class="barra-busqueda" target="_self">
+          <input type="search" name="boton-buscar" id="buscar-google" />
+        </form>
+        <i class="fas fa-microphone"></i>
+      </div>
       <div class="botones">
         <a href="www.google.com" class="boton">Buscar con Google</a>
         <a href="www.google.com" class="boton">Voy a tener suerte</a>
@@ -51,21 +65,22 @@
         <a href="www.google.com" class="idiomas">Frysk</a>
       </div>
     </main>
+    <!--Footer -->
     <footer>
       <div class="pais-actual">
         <p>Países Bajos</p>
       </div>
       <div class="informacion">
         <ul class="finale">
-          <li>Sobre Google</li>
-          <li>Publicidad</li>
-          <li>Empresa</li>
-          <li>Como funciona la Búsqueda</li>
+          <li><a href="#">Sobre Google</a></li>
+          <li><a href="#">Publicidad</a></li>
+          <li><a href="#">Empresa</a></li>
+          <li><a href="#">Como funciona la Búsqueda</a></li>
         </ul>
         <ul class="finale">
-          <li>Privacidad</li>
-          <li>Términos</li>
-          <li>Configuración</li>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Términos</a></li>
+          <li><a href="#">Configuración</a></li>
         </ul>
       </div>
     </footer>
